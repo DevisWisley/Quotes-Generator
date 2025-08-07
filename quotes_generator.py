@@ -6,11 +6,38 @@ import threading
 quotes = [
     "Jangan pernah menyimpan dua orang dalam satu hati ❤️. Fisik bisa diubah 💪, materi bisa dicari 💰, tapi orang yang tulus mencintaimu 💖 tidak akan datang dua kali 🔁...!!!",
     "Jangan merasa paling tersakiti 😢. Kadang kamu juga sering melukai orang lain 💔 tapi tidak menyadarinya 🤷‍♂️🤷‍♀️.",
-    "Rindu tidak oleh jarak 🌍, akan tetapi oleh perasaan 💭...",
-    "Yakinlah 🙏, se deras apa pun hujan 🌧️ pasti ada redanya 🌤️. Masalah hidup 💼😔 akan berganti bahagia 😊❤️.",
+    "Rindu tidak oleh jarak 🌍, akan tetapi oleh perasaan 💭. Kamu merindukannya bukan karena ia jauh 🚶‍♂️, namun karena ia telah ada di hatimu ❤️.",
+    "Yakinlah 🙏, se deras apa pun hujan 🌧️ pasti ada redanya 🌤️. Demikian juga ujian dan masalah hidup 💼😔 tak selamanya berderai air mata 😢. Akan ada masanya penuh canda 🤭 tertawa 😂, hingga akhirnya tercipta bahagia 😊❤️.",
     "Jika sudah ditakdirkan bersama 💑, semua pasti ada jalannya 🚶‍♂️🛤️.",
-    "Hidup ini terlalu singkat untuk tidak saling memaafkan 🤝💞.",
-    "Ketika kamu tulus mencintai, kamu akan belajar tentang kesabaran dan pengorbanan 🤍.",
+    "Mencintaimu adalah hak istimewa 💖, tapi dicinta olehmu adalah berkah 🌟. Bersamamu adalah keinginan yang menjadi nyata 💑✨. Dan aku berharap semua keinginanmu 🎁 menjadi kenyataan di hari istimewa ini 🎂🎉.",
+    "Jangan kolam renang yang panjang 🏊‍♂️, lautan aja ku sebrangi 🌊⛵ asal ujungnya ada kamu ❤️.",
+    "Terkadang kita butuh jarak 🛤️, agar memahami rasa sebenarnya 💭❤️. Seperti kata-kata ✍️ yang butuh spasi 🔠, agar bisa terbaca dengan baik 📖✨.",
+    "Tak perlu memaksa seseorang untuk selalu ada buat kita 🙅‍♂️💬, sebab yang tulus 💖 akan selalu ada 🫂, tanpa kita minta sekalipun 🤲.",
+    "Aku mungkin tak melihatmu setiap hari 👀📆, tapi aku senantiasa merindukanmu setiap saat 💭❤️. Semoga jarak ini 🌍 membuat kita semakin dekat 🤝, walaupun jarak antara kita terbentang jauh 🚶‍♀️🌏🚶‍♂️. Percayalah bahwa hati ini terjaga rapi untukmu seorang 💌🔐.",
+    "Di balik kata lelah 😮‍💨, ada kamu 💖 yang selalu menjadi alasanku untuk tidak menyerah 💪✨.",
+    "Tanpa rasa sakit 😣, kita tidak akan belajar menjadi kuat 💪. Tanpa rasa kecewa 😔, kita tidak akan belajar menjadi dewasa 🧠. Tanpa kehilangan 💔, kita tidak akan belajar arti ikhlas 🤲✨",
+    "Awalnya, manis 🍬 pada akhirnya membuat hati ini terluka 💔. Maka, akan ku hancurkan mereka semua 💣🔥.",
+    "Aku selalu berjanji pada diriku 🤞. Aku selalu menyayangi 💖 dan melindungimu 🛡️. Dan bila ada yang berani menyakitimu 😠💢.",
+    "Yang lalu biarlah berlalu ⏳💨. Sekarang, masa depan menanti yang lebih baik 🌅🚀.",
+    "Hidup ini terasa milik kita berdua 💑 kalau kita satu desa 🏡❤️.",
+    "Cincin ini 💍 janjiku seumur hidup untukmu 💖, Name, menikahlah denganku 💌👰‍♀️🤵‍♂️.",
+    "Banyak yang bilang cinta bangku sekolah 🎒💌 nggak akan sampai akhir ⏳, tapi dia menjadikanku satu-satunya 💑❤️.",
+    "Cinta terbaik 💖 akan memberiku cinta yang aman dan cukup 🛡️💫, tapi aku memberimu kepercayaan 🤝🔐.",
+    "Perjanjian hitam 📝⚫ di atas putih ✍️⚪.",
+    "Ada sebuah perasaan 💖 yang selamanya tak bisa kalah dengan waktu ⏳❤️.",
+    "Hal yang paling menyakitkan 😢 adalah sebuah perpisahan 💔 yang tak akan ada pertemuan kembali 🚶‍♂️💨.",
+    "Mengapa berbagi kesulitan itu mudah 🤝😔, tetapi kamu tidak menjaga hati 💔. Yang aku mau hanyalah cinta 💖.",
+    "Sakit 😢 juga bisa disebabkan oleh kehilangan sahabat 👥💔 sekaligus orang yang kita cintai 💖.",
+    "Semarah-marahnya aku 😠, aku tetap mencintaimu 💖, tetap menjaga 🛡️ dan menyayangimu 🤗, karena sejatinya hubungan yaitu mempertahankan 🤝❤️.",
+    "Cinta 💖 nggak akan tersakiti 😢, kalau emang sama-sama saling mengerti 🤝 dan menyayangi 🤗.",
+    "Ternyata 😔 tidak semua kesalahan ❌ bisa dimaafkan 🙏.",
+    "Terkadang 🤐 memendam adalah pilihan satu-satunya ☝️ agar semua terlihat baik-baik saja 🙂💔.",
+    "Terkadang 🕰️ kita diuji 🧪 bukan untuk menunjukkan kelemahan kita 😞, tetapi untuk menemukan kekuatan kita 💪✨.",
+    "Cinta itu diperjuangin 💪💖, bukan ditunggu ⏳🙇‍♀️.",
+    "Jadilah, hubungan yang dewasa 🧠💞 — jarang bertemu 🚶‍♂️🌍🚶‍♀️, tapi saling percaya 🤝 dan setia 💖. Karena setia adalah seni tertinggi 🎨 dalam mencintai ❤️.",
+    "Dipertemukan oleh virtual 💻📱, disatukan oleh kehidupan nyata 🤝❤️, dan dipisahkan oleh bedanya kepercayaan 🙏⚖️💔.",
+    "Berani berbuat 💪, berani bertanggung jawab 🛡️⚖️ itu namanya kesatria 🗡️🛡️.",
+    "Bahwa kelak 🕰️, ketika kita miskin atau kaya 💸💰, sehat ataupun sakit 💪🤒, kita nggak akan pernah berpisah 🤝❤️."
 ]
 
 is_dark_mode = False
@@ -49,7 +76,7 @@ def confirm_exit():
 def show_about():
     messagebox.showinfo(
         "Tentang Aplikasi",
-        "❤️ Quotes Generator\nDibuat dengan Python + Tkinter.\n\nKutipan cinta & kehidupan dengan emoji 💖\n\nDeveloper: Devis Wisley © 2025"
+        "❤️ Quotes Generator\n\nKutipan cinta & kehidupan dengan emoji 💖\n\nDeveloper: Devis Wisley © 2025"
     )
 
 def show_splash():
@@ -60,7 +87,7 @@ def show_splash():
 
     label = tk.Label(
         splash,
-        text="Quotes Generator ❤️",
+        text="✨ Quote Generator ✨",
         font=("Segoe UI", 20, "bold"),
         bg="white",
         fg="#333"
@@ -82,7 +109,7 @@ def start_main_app():
     global root, quote_display, title, footer, card, generate_btn
 
     root = tk.Tk()
-    root.title("Quotes Generator ❤️")
+    root.title("✨ Quote Generator ✨")
     root.geometry("700x450")
     root.resizable(False, False)
     root.configure(bg="#f2f2f2")
@@ -107,7 +134,7 @@ def start_main_app():
 
     title = tk.Label(
         root,
-        text="Quotes Generator 💬",
+        text="✨ Quote Generator ✨",
         font=("Segoe UI", 22, "bold"),
         bg="#f2f2f2",
         fg="#333"
