@@ -115,16 +115,3 @@ Proyek ini dikembangkan oleh **Devis Wisley**, seorang web developer yang memili
 ---
 
 Silakan hubungi jika Anda memiliki saran, permintaan fitur tambahan, ingin memberikan dukungan, atau tertarik dengan proyek serupa.
-
----
-
-## ❤️ Credits
-
-Terinspirasi oleh kutipan cinta dan kehidupan yang bermakna.  
-Terima kasih kepada komunitas Python & Tkinter.
-
----
-
-## 🙏 Terima Kasih
-Terima kasih telah menggunakan Quotes Generator.
-Semoga kutipan yang dihasilkan memberikan inspirasi harianmu! ❤️
