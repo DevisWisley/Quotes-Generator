@@ -1,6 +1,6 @@
 # 💬 Quotes Generator App
 
-Aplikasi **Quotes Generator** sederhana berbasis **Python Tkinter** yang menampilkan kutipan-kutipan menarik, lengkap dengan emoji, dark mode, splash screen, menu navigasi, dan dialog konfirmasi saat keluar.
+Aplikasi **Quotes Generator** sederhana berbasis **Python** yang menampilkan kutipan-kutipan menarik, lengkap dengan emoji, dark mode, splash screen, menu navigasi, dan dialog konfirmasi saat keluar.
 
 ---
 
@@ -35,6 +35,7 @@ Aplikasi **Quotes Generator** sederhana berbasis **Python Tkinter** yang menampi
     └── 📂.history
     └── 📂.vscode
     ├── 📜 quotes_generator.py
+    ├── 📜 README.md
 ```
 
 ---
