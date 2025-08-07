@@ -29,6 +29,16 @@ Aplikasi **Quotes Generator** sederhana berbasis **Python Tkinter** yang menampi
 
 ---
 
+## 📂 Struktur Folder
+```
+└── 📦 Quotes-Generator
+    └── 📂.history
+    └── 📂.vscode
+    ├── 📜 quotes_generator.py
+```
+
+---
+
 ## ▶️ Cara Menjalankan Proyek
 
 1. 🧰 **Pastikan Python Terinstal:**
