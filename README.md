@@ -34,8 +34,11 @@ Aplikasi **Quotes Generator** sederhana berbasis **Python** yang menampilkan kut
 └── 📦 Quotes-Generator
     └── 📂.history
     └── 📂.vscode
+    ├── 📜 CODE_OF_CONDUCT.md
+    ├── 📜 LICENSE.txt
     ├── 📜 quotes_generator.py
     ├── 📜 README.md
+    ├── 📜 SECURITY.md
 ```
 
 ---
